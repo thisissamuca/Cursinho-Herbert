@@ -1,0 +1,409 @@
+/* Geral */ 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(255, 240, 240);
+}
+
+.container {
+    padding: auto;
+    margin: auto;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+
+.col {
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+}
+
+
+p {
+    color: #333;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+/* Pagina Principal */ 
+
+
+
+/* Especialidades */ 
+
+#abc {
+    background-color:rgb(86, 173, 255);
+    margin: 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    height: 300px;
+    padding-top: 110px;
+}
+
+#abcd {
+    background-color: rgb(255, 208, 0);
+    margin: 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    height: 300px;
+    padding-top: 110px;
+}
+
+#abce {
+    background-color: rgb(255, 123, 233);
+    margin: 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    height: 300px;
+    padding-top: 110px;
+}
+
+#abcf {
+    background-color: rgb(94, 25, 255);
+    margin: 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    height: 300px;
+    padding-top: 110px;
+}
+
+#abc:hover, #abcd:hover, #abce:hover, #abcf:hover  {
+    font-size: 64px;
+    transition: .9s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#abc:hover i, #abcd:hover i, #abce:hover i, #abcf:hover i {
+    color: black;
+}
+
+/* Sessão */ 
+
+.title-season {
+    font-size: 68px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(59, 127, 252);
+    margin: 0;
+}
+
+#text-season {
+    font-size: 24px;
+    padding: 0;
+    margin: 30px 0px 0px 0px;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#line-season {
+    width: 120px;
+    height: 8px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+
+/* Sobre nós */
+
+.about-area {
+    background-color: white;
+    padding: 0;
+    margin: 30px 0px 0px 0px;
+}
+
+.grid {
+    align-items: center;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+
+.title-about-area {
+    font-size: 68px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(59, 127, 252);
+    margin: 0;
+}
+
+#text-about-area {
+    font-size: 24px;
+    padding: 0;
+    margin: 50px 0px 0px 0px;
+    letter-spacing: 3px;
+}
+
+.grid .img-fluid {
+    margin-top: 40px;
+    margin-right: 35px;
+    display: flex;
+    box-shadow: -4px 10px 25px #333;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 20px;
+    padding: 0;
+}
+
+.card i {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.card i:hover {
+    transition: .6s;
+    color: orangered;
+    cursor: pointer;
+}
+
+#card-1 {
+    background-color: rgb(248, 248, 248);
+}
+
+#card-1:hover, #card-2:hover, .grid .card-body img:hover {
+    transition: 2s;
+    box-shadow: 0px 0px 30px black;
+}
+
+#card-2 {
+    background-color: rgb(196, 255, 196);
+}
+
+.card-title {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.card-text {
+    text-align: start;
+    font-size: 16px;
+    font-style: italic;
+    padding:  15px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card a {
+    margin-bottom: 30px;
+}
+
+#btn-1:hover, #btn-2:hover{
+    transition: .8s;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: transparent;
+    border: none;
+}
+
+/* Serviços */
+
+.services-area {
+    background-color: rgb(252, 215, 9);
+}
+
+#text-services-area {
+    font-size: 16px;
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.title-services-area {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.services-area .card {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 70px 0px;
+    padding: 0;
+}
+
+.services-area img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.services-area .card-title {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#meio-ambiente {
+    color: rgb(255, 40, 122);
+}
+
+#aprendizado-ativo {
+    color: rgb(59, 127, 252);
+}
+
+#lições-criativas {
+    color: rgb(0, 177, 221);
+}
+
+#professor-qualificado {
+    color: rgb(252, 215, 9);
+}
+
+.services-area .card-text {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+#card-5, #card-6, #card-7, #card-8 {
+    border: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#card-5:hover, #card-6:hover, #card-7:hover, #card-8:hover {
+    transition: 2s;
+    box-shadow: 0px 0px 30px black;
+} 
+
+/* Sessão 2 */
+
+.season-2 {
+    background-color: aliceblue;
+}
+
+.title-season-2 {
+    padding-top: 70px;
+    font-size: 46px;
+    font-weight: bold;
+    color: #333;
+    text-align: start;
+}
+
+#text-season-2 {
+    margin-top: 10px;
+    text-align: start;
+    color:#333;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* Métodos */
+
+.method-area {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 32, 69);
+}
+
+.method-area .container {
+    padding: 20px;
+}
+
+.method-area h2{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 30px;
+    color: #333;
+}
+
+.method-area p {
+    font-size: 18px;
+    margin: 10px;
+    text-align: start;
+    margin-top: 30px;
+}
+
+.method-area img {
+    width: 350px;
+}
+
+#col-method-area {
+     background-color: white;
+     height: 525px;
+     width: 100px;
+}
+
+/* About us 2 */
+
+.about-us-2-area {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.title-about-2-area {
+    font-size: 68px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#text-about-2-area {
+    font-size: 24px;
+    padding: 0;
+    margin: 50px 0px 0px 0px;
+    letter-spacing: 3px;
+}
+
+.about-us-2-area h3 {
+    font-size: 24px;
+    margin: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
+}
+
+.about-us-2-area p {
+    font-size: 18px;
+    margin: 10px 10px 0px 10px;
+}
+
+.d, .dd {
+    text-align: end;
+}
+
+.e, .ee {
+    text-align: start;
+}
