@@ -1,0 +1,83 @@
+/* Serviços */
+
+#sevices {
+    background-color: white;
+}
+
+#text-services {
+    font-size: 16px;
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.title-services {
+    font-size: 68px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+#paragraph-services {
+    font-size: 24px;
+    padding: 0;
+    margin: 65px 0px 0px 0px;
+    text-align: center;
+}
+
+.services-area .card {
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px 0px 0px;
+}
+
+.card-body {
+    padding: 10px;
+    background-color: rgb(255, 53, 38);
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid rgba(51, 51, 51, 0.22);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.80);
+}
+
+.services-area .card-title {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    color: white;
+}
+
+.services-area img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+
+#preVestibular {
+    color: rgb(53, 164, 255);
+}
+
+#preTecnico {
+    color: rgb(73, 255, 128);
+}
+
+#concursos {
+    color: rgb(255, 224, 51);
+}
+
+.services-area .card-text {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+

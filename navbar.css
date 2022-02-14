@@ -10,8 +10,14 @@ nav {
     height: auto;
 }
 
-.navbar-brand:hover {
-    cursor: pointer;
+#imgLogo {
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+
+}
+
+#text-logo {
+    color: aliceblue;
 }
 
 .navbar-nav {

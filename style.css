@@ -7,7 +7,6 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(255, 240, 240);
 }
 
 .container {
@@ -28,9 +27,7 @@ body {
 
 
 p {
-    color: #333;
     text-decoration: none;
-    font-weight: lighter;
 }
 
 /* Pagina Principal */ 
@@ -189,85 +186,7 @@ p {
     border: none;
 }
 
-/* Serviços */
 
-.services-area {
-    background-color: rgb(252, 215, 9);
-}
-
-#text-services-area {
-    font-size: 16px;
-    padding: 0;
-    margin: 70px 0px 0px 0px;
-    letter-spacing: 3px;
-    color: white;
-}
-
-.title-services-area {
-    font-size: 42px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    margin: 0;
-}
-
-.services-area .card {
-    background-color: transparent;
-    border: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0px 70px 0px;
-    padding: 0;
-}
-
-.services-area img {
-    width: 80px;
-    height: 80px;
-    margin-top: 30px;
-}
-
-.services-area .card-title {
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#meio-ambiente {
-    color: rgb(255, 40, 122);
-}
-
-#aprendizado-ativo {
-    color: rgb(59, 127, 252);
-}
-
-#lições-criativas {
-    color: rgb(0, 177, 221);
-}
-
-#professor-qualificado {
-    color: rgb(252, 215, 9);
-}
-
-.services-area .card-text {
-    font-style: italic;
-    font-size: 14px;
-    text-align: center;
-}
-
-#card-5, #card-6, #card-7, #card-8 {
-    border: none;
-    padding: 10px;
-    background-color: aliceblue;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-#card-5:hover, #card-6:hover, #card-7:hover, #card-8:hover {
-    transition: 2s;
-    box-shadow: 0px 0px 30px black;
-} 
 
 /* Sessão 2 */
 
@@ -338,22 +257,7 @@ p {
     background-color: white;
 }
 
-.title-about-2-area {
-    font-size: 68px;
-    margin: 10px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    color: #333;
-}
 
-#text-about-2-area {
-    font-size: 24px;
-    padding: 0;
-    margin: 50px 0px 0px 0px;
-    letter-spacing: 3px;
-}
 
 .about-us-2-area h3 {
     font-size: 24px;

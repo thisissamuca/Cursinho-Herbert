@@ -1,37 +1,33 @@
 /* Sessão */ 
 
+#season {
+    background-color: whitesmoke;
+}
+
 .title-season {
     font-size: 68px;
     text-align: center;
     font-weight: bold;
-    color: rgb(59, 127, 252);
+    color: #333;
     margin: 0;
-    margin-top: 50px;
 }
 
-#text-season {
+#paragraph-season {
     font-size: 24px;
     padding: 0;
-    margin: 50px 0px 0px 0px;
+    margin: 65px 0px 0px 0px;
     text-align: center;
 }
 
+#text-season {
+    font-size: 16px;
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+    letter-spacing: 3px;
+    color: #333;
+}
+
 #targets {
-    margin-top: 50px;
-}
-
-.box {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-#line-season {
-    width: 120px;
-    height: 8px;
-    background-color: #333;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 30px 0px 0px 0px;
+    margin-top: 70px;
+    padding-bottom: 70px;
 }
