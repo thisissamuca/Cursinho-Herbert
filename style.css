@@ -90,38 +90,6 @@ p {
     color: black;
 }
 
-/* Sessão */ 
-
-.title-season {
-    font-size: 68px;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(59, 127, 252);
-    margin: 0;
-}
-
-#text-season {
-    font-size: 24px;
-    padding: 0;
-    margin: 30px 0px 0px 0px;
-}
-
-.box {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-#line-season {
-    width: 120px;
-    height: 8px;
-    background-color: #333;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 30px 0px 0px 0px;
-}
-
 /* Sobre nós */
 
 .about-area {
