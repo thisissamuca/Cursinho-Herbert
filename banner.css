@@ -1,6 +1,6 @@
 #imgBannerBox {
     width: 100%;
-    height: 100%;
+    height: 100%;   
 }
 
 #imgBanner {
@@ -10,7 +10,7 @@
 #titulo {
     width: 100%;
     height: 100%;
-    margin: 60px 20px 50px 30px;
+    margin: 60px 20px 40px 30px;
 }
 
 h1 {
@@ -29,4 +29,25 @@ h1 {
     font-size: 22px;
     font-weight: bolder;
     letter-spacing: 3px;
+}
+
+#btn {
+    color: rgb(255, 53, 38);
+    background-color: transparent;
+    outline: 1px solid rgb(255, 53, 38);
+    outline-offset: 2px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-right: 400px;
+}
+
+#btn:hover {
+    transition: .8s;
+    color: white;
+    background-color: #333;
+    outline: none;
+    outline-offset: none;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.699);
 }

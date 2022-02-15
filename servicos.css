@@ -27,41 +27,60 @@
     text-align: center;
 }
 
-.services-area .card {
-    border: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 65px 0px 0px 0px;
-}
+/* --------------------------------------------------------------------------------- */
 
-.card-body {
-    padding: 10px;
-    background-color: rgb(255, 53, 38);
-    margin-right: 20px;
-    margin-left: 20px;
-    border: 1px solid rgba(51, 51, 51, 0.22);
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.80);
-}
+/* TÍTULO CARTA */
 
-.services-area .card-title {
+.card-title {
     margin-top: 30px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
 
+/* CONTAIER CARTA */
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CARTA CORPO */
+
+.card-body {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 53, 38);
+    border: 1px solid rgba(51, 51, 51, 0.22);   
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.80);
+}
+
+/* CARTA TEXTO */
+
 .card-text {
     color: white;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 80px;
 }
+
+/* CARTA TEXTO */
 
 .services-area img {
-    width: 80px;
-    height: 80px;
-    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
 }
 
+/* TÍTULOS */
 
 #preVestibular {
     color: rgb(53, 164, 255);
@@ -75,9 +94,50 @@
     color: rgb(255, 224, 51);
 }
 
-.services-area .card-text {
-    font-style: italic;
-    font-size: 14px;
-    text-align: center;
+/* --------------------------------------------------------------------------------- */
+
+/* FLIPS */
+
+.flip-container, .flip-container2, .flip-container3 {
+    width: 33%;
+    height: 300px;
+    margin: 50px 0px 50px 0px;
 }
 
+.flipper, .flipper2, .flipper3{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: transform 2s;
+    position: relative;
+    cursor: pointer;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+.flip-container2:hover .flipper2{
+	transform: rotateY(180deg);
+}
+
+.flip-container3:hover .flipper3{
+	transform: rotateY(180deg);
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+	transform: rotateY(180deg);
+}
+
+#switch, #switch2, #switch3 {
+	display: none;
+}
+
+/* --------------------------------------------------------------------------------- */

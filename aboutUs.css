@@ -1,4 +1,5 @@
 .title-about {
+
     font-size: 68px;
     margin: 10px;
     font-weight: bold;
@@ -14,4 +15,9 @@
     margin: 70px 0px 0px 0px;
     letter-spacing: 3px;
     color: #333;
+}
+
+#about {
+    width: 100%;
+    background-color: whitesmoke;;
 }
