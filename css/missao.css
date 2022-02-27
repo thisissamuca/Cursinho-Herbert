@@ -1,0 +1,88 @@
+/* --------------------------------------------------------------------------------- */
+
+/* CABEÇALHO */
+
+.title-season-mission {
+
+    color: #333;
+
+    font-size: 68px;
+    text-align: center;
+    font-weight: bold;
+
+    margin: 0;
+    padding-bottom: 70px;
+
+}
+
+#text-season-mission {
+
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    margin: 50px 0px 0px 0px;
+    padding: 0;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* IMAGEM */
+
+#imgMission {
+
+    width: 100%;
+
+    margin: auto auto;
+    padding: 0px;
+
+}
+
+#imgMission {
+
+    background-color: white;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#imgMissionBox {
+
+    justify-content: center;
+
+    width: 100%;
+
+    margin: auto auto;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* PARAGRAFOS */
+
+.paragraph-season-mission {
+
+    font-size: 22px;
+    text-align: start;
+
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+
+}
+
+#paragraphMargin {
+
+    padding-top: 70px;
+
+}
+
+#ParagraphMission {
+
+    background-color: whitesmoke;
+
+}
+
+/* --------------------------------------------------------------------------------- */

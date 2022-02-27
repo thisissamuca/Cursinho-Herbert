@@ -1,45 +1,88 @@
-/* Navbar */
+/* --------------------------------------------------------------------------------- */
+
+/* NAVBAR */
+
 header {
+
     width: 100vw;
     height: auto;
+
     margin-bottom: 76.5px;
+
 }
 
 nav {
+
     width: 100vw;
     height: auto;
+
+    background-color: rgb(26, 23, 29);
+
 }
 
+/* --------------------------------------------------------------------------------- */
+
+/* LOGO */
+
 #imgLogo {
-    border-radius: 50%;
+
     margin: 0px 10px 0px 10px;
 
 }
 
 #text-logo {
+
     color: aliceblue;
+
 }
 
+/* --------------------------------------------------------------------------------- */
+
+/* LINKS */
+
 .navbar-nav {
+
+    background-color: #444;
+
+    border-radius: 10px;
+
     margin: 0px 10px 0px 0px;
+
+
 }
 
 .nav-link {
-    cursor: pointer;
-    margin: 0px 20px 0px 0px;
-    transition: .8s;
+
+    border-radius: 10px;
+
+    margin: 0px 20px 0px 20px;
     padding: 15px;
-    color: orange;
+
+    cursor: pointer;
+    transition: .8s;
+
 }
 
 #home, #projetos, #equipe, #blog, #missao {
-    font-size: 16px;
+
     color: white;
+
+    font-size: 16px;
+
 }
 
 .nav-link:hover {
-    outline: 1px solid red;
-    outline-offset: 1px;
-    border-radius: 15px;
-    color: red;
+
+    background-color: rgb(255, 53, 38);
+
+    border-radius: 10px;
+
 }
+
+.navbar-nav:hover {
+
+    transition: 1s;
+
+}
+
+/* --------------------------------------------------------------------------------- */

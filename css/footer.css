@@ -1,0 +1,90 @@
+/* --------------------------------------------------------------------------------- */
+
+/* FOOTER CORPO */
+
+.page-footer {
+
+    background-color: rgb(26, 23, 29);
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* TEXTOS */
+
+#textFooter {
+
+    color: white;
+
+}
+
+#copyFooter {
+
+    color: white;
+
+    padding: 10px 0px 50px 0px;
+
+}
+
+.linkFooter {
+
+    color:rgb(255, 53, 38);
+
+    transition: .3s;
+
+}
+
+.linkFooter:hover {
+
+    color: rgb(255, 187, 0);
+
+    text-decoration: none;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* SOCIAL */
+
+#fb, #ig, #tt {
+
+    color: white;
+
+    font-size: 26px;
+
+    border-radius: 50%;
+    padding: 15px;
+
+    cursor: pointer;
+
+    transition: .5s;
+
+}
+
+#fb:hover {
+
+    color: rgb(29, 52, 255);
+
+} 
+
+#ig:hover {
+
+    color: rgb(255, 0, 55);
+
+} 
+
+#tt:hover {
+
+    color: rgb(0, 132, 255);
+
+} 
+
+#social {
+
+    margin: 0;
+
+    padding: 10px;
+
+}
+
+/* --------------------------------------------------------------------------------- */

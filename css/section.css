@@ -1,33 +1,56 @@
-/* Sessão */ 
+/* --------------------------------------------------------------------------------- */
+
+/* GERAL */ 
 
 #season {
+
     background-color: whitesmoke;
+
 }
 
+/* --------------------------------------------------------------------------------- */
+
+/* TEXTOS */ 
+
 .title-season {
+
+    color: #333;
+
     font-size: 68px;
     text-align: center;
     font-weight: bold;
-    color: #333;
+
     margin: 0;
+
 }
 
 #paragraph-season {
+
     font-size: 22px;
-    padding: 0;
-    margin: 65px 0px 0px 0px;
     text-align: center;
+
+    margin: 65px 0px 0px 0px;
+    padding: 0;
+
 }
 
 #text-season {
-    font-size: 16px;
-    padding: 0;
-    margin: 70px 0px 0px 0px;
-    letter-spacing: 3px;
+
     color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    margin: 70px 0px 0px 0px;
+    padding: 0;
+
 }
 
 #targets {
+
     margin-top: 70px;
     padding-bottom: 70px;
+
 }
+
+/* --------------------------------------------------------------------------------- */

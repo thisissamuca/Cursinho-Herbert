@@ -1,186 +1,74 @@
-/* Geral */ 
+/* --------------------------------------------------------------------------------- */
 
-body {
-    font-family: 'Roboto', sans-serif;
+/* GERAL */ 
+
+* {
+
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
     width: 100vw;
     height: 100vh;
-    box-sizing: border-box;
+
 }
 
 .container {
+
     padding: auto;
     margin: auto;
+
 }
 
 .row {
+
     text-align: center;
     align-items: center;
+
     padding: 0;
+
 }
 
 .col {
-    margin: 0px 0px 0px 0px;
+
+    margin: 0px;
     padding-top: 0px;
+
+}
+
+h1 {
+
+    color: #333;
+
+    font-size: 72px;
+    text-align: start;
+    font-weight: bold;
+
 }
 
 p {
+
     text-decoration: none;
+
 }
 
-/* Pagina Principal */ 
+span {
 
-
-
-/* Especialidades */ 
-
-#abc {
-    background-color:rgb(86, 173, 255);
-    margin: 0;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 30px;
-    height: 300px;
-    padding-top: 110px;
+    color:rgb(255, 53, 38);
+    
 }
 
-#abcd {
-    background-color: rgb(255, 208, 0);
-    margin: 0;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 30px;
-    height: 300px;
-    padding-top: 110px;
+hr {
+
+    background-color: #444;
+
 }
 
-#abce {
-    background-color: rgb(255, 123, 233);
-    margin: 0;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 30px;
-    height: 300px;
-    padding-top: 110px;
-}
-
-#abcf {
-    background-color: rgb(94, 25, 255);
-    margin: 0;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 30px;
-    height: 300px;
-    padding-top: 110px;
-}
-
-#abc:hover, #abcd:hover, #abce:hover, #abcf:hover  {
-    font-size: 64px;
-    transition: .9s;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-#abc:hover i, #abcd:hover i, #abce:hover i, #abcf:hover i {
-    color: black;
-}
-
-/* Sobre nós */
-
-.about-area {
-    background-color: white;
-    padding: 0;
-    margin: 30px 0px 0px 0px;
-}
-
-.grid {
-    align-items: center;
-    display: flex;
-    margin: 20px 0px 0px 0px;
-}
-
-.title-about-area {
-    font-size: 68px;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(59, 127, 252);
-    margin: 0;
-}
-
-#text-about-area {
-    font-size: 24px;
-    padding: 0;
-    margin: 50px 0px 0px 0px;
-    letter-spacing: 3px;
-}
-
-.grid .img-fluid {
-    margin-top: 40px;
-    margin-right: 35px;
-    display: flex;
-    box-shadow: -4px 10px 25px #333;
-}
-
-.card {
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px 20px 20px;
-    padding: 0;
-}
-
-.card i {
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-.card i:hover {
-    transition: .6s;
-    color: orangered;
-    cursor: pointer;
-}
-
-#card-1 {
-    background-color: rgb(248, 248, 248);
-}
-
-#card-1:hover, #card-2:hover, .grid .card-body img:hover {
-    transition: 2s;
-    box-shadow: 0px 0px 30px black;
-}
-
-#card-2 {
-    background-color: rgb(196, 255, 196);
-}
-
-.card-title {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: lighter;
-    color: #333;
-    letter-spacing: 3px;
-}
-
-.card-text {
-    text-align: start;
-    font-size: 16px;
-    font-style: italic;
-    padding:  15px;
-}
-
-.card-body {
-    padding: 0;
-}
-
-.card a {
-    margin-bottom: 30px;
-}
-
-#btn-1:hover, #btn-2:hover{
-    transition: .8s;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    background-color: transparent;
-    border: none;
-}
+/* --------------------------------------------------------------------------------- */
