@@ -71,4 +71,50 @@ hr {
 
 }
 
+a {
+    
+    box-shadow: none;
+
+    border: none;
+    outline: none;
+
+    text-decoration: none;
+
+}
+
+.oculto {
+
+    display: none;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* Efeito de brilho */
+
+.brightness {
+    --posX: 0px;
+    --posY: 0px;
+    --color: rgba(255, 255, 255, 0.15);
+}
+  
+.brightness::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: radial-gradient(
+    circle at var(--posX) var(--posY),
+    var(--color),
+    rgba(255, 255, 255, 0)
+  );
+}
+  
+.brightness .nav-link, .navbar-brand, #text-logo  {
+  position: relative;
+  pointer-events:all;
+}
+
 /* --------------------------------------------------------------------------------- */

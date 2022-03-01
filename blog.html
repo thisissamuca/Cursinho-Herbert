@@ -47,20 +47,24 @@
 
       <div class="container">
 
-        <nav class="navbar navbar-expand-lg fixed-top navbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar brightness" >
 
-          <a href="index.html" class="navbar-brand" id="imgLogo"><img src="imagens/perfilHerbert.png" id="imgLogo" width="40px" height="40px" alt="Logo do site"><span id="text-logo">Herbert de Souza</span>
-          </a>
-  
-          <div class="navbar-collapse justify-content-end" id="navbar-links">
+          <a href="index.html" class="navbar-brand" id="imgLogo"><img src="imagens/perfilHerbert.png"id="imgLogo" width="40px" height="40px" alt="Logo do site"><span id="text-logo">Herbert de Souza</span></a>
+
+          <div class="navbar-collapse oculto" id="navbar-links">
+
+            <button type="button" class="bar oculto"><i class="fas fa-bars" id="icon"></i></button>
   
             <div class="navbar-nav">
-
+  
               <a class="nav-link" href="index.html" id="home">Página inicial</a>
               <a class="nav-link" href="projetos.html" id="projetos">Projetos</a>
               <a class="nav-link" href="missao.html" id="missao">Nossa missão</a>
               <a class="nav-link" href="equipe.html" id="equipe">Equipe</a>
-              <a class="nav-link" href="blog.html" id="blog">Nosso blog</a>
+
+              <!-- 
+              <a class="nav-link disabled" href="blog.html" id="blog">Nosso blog</a>
+              -->
 
             </div>
   
@@ -80,116 +84,115 @@
 <!-- --------------------------------------------------------------------------------- -->
 
     <!-- Footer -->
-    
+
     <footer class="page-footer">
     
-        <!-- Footer Links -->
-        <div class="container">
+      <!-- Footer Links -->
+      <div class="container">
+      
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
         
-          <!-- Grid row-->
-          <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-          
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-  
-              <h6 class="text-uppercase font-weight-bold">
-  
-                <a class="linkFooter" href="#!">CONTATE-NOS</a>
-  
-              </h6>
-  
-            </div>
-          
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-  
-              <h6 class="text-uppercase font-weight-bold">
-  
-                <a class="linkFooter" href="#!">PRECISO DE AJUDA</a>
-  
-              </h6>
-  
-            </div>
-          
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-  
-              <h6 class="text-uppercase font-weight-bold">
-  
-                <a class="linkFooter" href="#!">ONDE ESTAMOS</a>
-  
-              </h6>
-  
-            </div>
-          
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+
+            <h6 class="text-uppercase font-weight-bold">
+
+              <a class="linkFooter" href="contato.html">CONTATE-NOS</a>
+
+            </h6>
+
           </div>
-          
-          <!-- Grid row-->
-          <hr class="rgba-white-light" style="margin: 0 15%;">
-  
-          <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-  
-            <div class="col-md-8 col-12 mt-5">
-  
-              <p id="textFooter">
-  
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deserunt ipsa dicta nemo tempore, natus dolore nesciunt quae libero ipsam quaerat culpa vel similique omnis voluptate consectetur cum, dolor dolores!
-  
-              </p>
-  
-            </div>
-          
-          </div>
-  
-          <!-- Grid row-->
-          <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
         
-          <div class="row pb-3">
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+
+            <h6 class="text-uppercase font-weight-bold">
+
+              <a class="linkFooter" href="help.html">PRECISO DE AJUDA</a>
+
+            </h6>
+
+          </div>
+        
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+
+            <h6 class="text-uppercase font-weight-bold">
+
+              <a class="linkFooter" href="https://www.google.com.br/maps/place/Rua+Dusolina+Leone+Tornieux,+249+-+Parque+Res.+Vila+União,+Campinas+-+SP,+13060-769/@-22.9429882,-47.1196781,18z/data=!3m1!4b1!4m5!3m4!1s0x94c8c8367ce0d287:0x479cad4521de0ae6!8m2!3d-22.9429898!4d-47.1189887">ONDE ESTAMOS</a>
+
+            </h6>
+
+          </div>
+        
+        </div>
+        
+        <!-- Grid row-->
+        <hr class="rgba-white-light" style="margin: 0 15%;">
+
+        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+          <div class="col-md-8 col-12 mt-5">
+
+            <p id="textFooter">
+
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deserunt ipsa dicta nemo tempore, natus dolore nesciunt quae libero ipsam quaerat culpa vel similique omnis voluptate consectetur cum, dolor dolores!
+
+            </p>
+
+          </div>
+        
+        </div>
+
+        <!-- Grid row-->
+        <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+      
+        <div class="row pb-">
+        
+          <!-- Grid column -->
+          <div class="col-md-12" id="social">
           
-            <!-- Grid column -->
-            <div class="col-md-12" id="social">
+            <div class="flex-center">
             
-              <div class="flex-center">
-              
-                <!-- Facebook -->
-                <a class="">
-  
-                  <i class="fab fa-facebook" id="fb"></i>
-  
-                </a>
-  
-                <!-- Twitter -->
-                <a class="tw-ic">
-  
-                  <i class="fab fa-twitter" id="tt"></i>
-  
-                </a>
-  
-                <!--Instagram-->
-                <a class="ins-ic">
-  
-                  <i class="fab fa-instagram" id="ig"></i>
-  
-                </a>
-              
-              </div>
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/cursinhoherbertdesouza/">
+
+                <i class="fab fa-facebook" id="fb"></i>
+
+              </a>
+
+              <!-- Twitter -->
+              <a>
+
+                <i class="fab fa-twitter" id="tt"></i>
+
+              </a>
+
+              <!--Instagram-->
+              <a href="https://www.instagram.com/cursinhoherbertdesouza/">
+
+                <i class="fab fa-instagram" id="ig"></i>
+
+              </a>
             
             </div>
           
           </div>
         
         </div>
-  
-        <!-- Copyright -->
-  
-        <div class="footer-copyright text-center" id="copyFooter">© 2022
-  
-          Cursinho Popular Herbert de Souza
-  
-        </div>
-  
+      
+      </div>
+
+      <!-- Copyright -->
+
+      <div class="footer-copyright text-center" id="copyFooter">© 2022
+
+        Cursinho Popular Herbert de Souza
+
+      </div>
+
     </footer>
-  
 
 <!-- --------------------------------------------------------------------------------- -->
       

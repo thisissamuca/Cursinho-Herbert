@@ -6,7 +6,7 @@
 
   <head>
 
-    <title>Página inicial</title>
+    <title>Página inicial - Cursinho popular Herbert de Souza</title>
 
     <!-- Required meta tags -->
 
@@ -47,11 +47,13 @@
 
       <div class="container">
 
-        <nav class="navbar navbar-expand-lg fixed-top navbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar brightness" >
 
-          <a href="index.html" class="navbar-brand" id="imgLogo" ><img src="imagens/perfilHerbert.png" id="imgLogo" width="40px" height="40px" alt="Logo do site"><span id="text-logo">Herbert de Souza</span></a>
-  
-          <div class="navbar-collapse justify-content-end" id="navbar-links">
+          <a href="index.html" class="navbar-brand" id="imgLogo"><img src="imagens/perfilHerbert.png"id="imgLogo" width="40px" height="40px" alt="Logo do site"><span id="text-logo">Herbert de Souza</span></a>
+
+          <div class="navbar-collapse oculto" id="navbar-links">
+
+            <button type="button" class="bar oculto"><i class="fas fa-bars" id="icon"></i></button>
   
             <div class="navbar-nav">
   
@@ -59,7 +61,10 @@
               <a class="nav-link" href="projetos.html" id="projetos">Projetos</a>
               <a class="nav-link" href="missao.html" id="missao">Nossa missão</a>
               <a class="nav-link" href="equipe.html" id="equipe">Equipe</a>
-              <a class="nav-link" href="blog.html" id="blog">Nosso blog</a>
+
+              <!-- 
+              <a class="nav-link disabled" href="blog.html" id="blog">Nosso blog</a>
+              -->
 
             </div>
   
@@ -145,7 +150,6 @@
           <p id="paragraph-season">
             Acreditamos que ao passar pelo <strong>Projeto Herbert de Souza</strong> as pessoas possam não somente ingressar na Universidade ou Colégios Técnicos  mas também, principalmente, que possam compreender que, estejam elas em quaisquer posição social, utilizem seu conhecimento para   melhorar o mundo para todos.
           </p> 
-
 
           <div class="row row-cols-4" id="targets">
 
@@ -250,9 +254,9 @@
 
                             <div class="card-body">
             
-                              <p class="card-text">
+                              <p class="card-text" id="preVest">
                                 
-                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quasi aliquam aperiam illum beatae sed commodi error eum est dolore, magnam, ipsam adipisci provident quam eaque praesentium, ullam dicta nulla?.
+                                  Cursinho preparatório para vestibulares como Enem, Comvest, Fuvest e Vunesp, etc, com foco e aprofundamento em disciplinas do Ensino Médio como matemática e redação.
                                 
                                </p>
           
@@ -296,9 +300,9 @@
 
                             <div class="card-body">
             
-                              <p class="card-text">
+                              <p class="card-text" id="preTec">
                                 
-                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quasi aliquam aperiam illum beatae sed commodi error eum est dolore, magnam, ipsam adipisci provident quam eaque praesentium, ullam dicta nulla?.
+                                  Cursinho focado para alunos que estão no 9º ano e querem ingressar em algum colégio técnico como o Cotuca, Cotil, Etecap, Bentão, etc. O cronograma é composto pelas disciplinas exigidas nesses vestibulares, como gramática, interpretação, ciências exatas e biológicas. 
                                 
                               </p>
           
@@ -342,9 +346,9 @@
          
                             <div class="card-body">
             
-                              <p class="card-text">
+                              <p class="card-text" id="conc">
                                 
-                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quasi aliquam aperiam illum beatae sed commodi error eum est dolore, magnam, ipsam adipisci provident quam eaque praesentium, ullam dicta nulla?.
+                                É um curso voltado para aqueles que concluíram seus estudos a bastante tempo. Tem por objetivo preparar os alunos para os concursos públicos de nível fundamental e médio. São oferecidas aulas de português e matemática básicos e possui material próprio.
                                 
                               </p>
           
@@ -362,7 +366,7 @@
 
               <div class="btns">
 
-                <button type="button" class="btn" id="btn2">SABER MAIS</button>
+                <a href="projetos.html"><button type="button" class="btn redProjetos" id="btn2">SABER MAIS</button></a>
 
               </div>
 
@@ -481,7 +485,7 @@
 
             <h6 class="text-uppercase font-weight-bold">
 
-              <a class="linkFooter" href="#!">CONTATE-NOS</a>
+              <a class="linkFooter" href="contato.html">CONTATE-NOS</a>
 
             </h6>
 
@@ -492,7 +496,7 @@
 
             <h6 class="text-uppercase font-weight-bold">
 
-              <a class="linkFooter" href="#!">PRECISO DE AJUDA</a>
+              <a class="linkFooter" href="help.html">PRECISO DE AJUDA</a>
 
             </h6>
 
@@ -503,7 +507,7 @@
 
             <h6 class="text-uppercase font-weight-bold">
 
-              <a class="linkFooter" href="#!">ONDE ESTAMOS</a>
+              <a class="linkFooter" href="https://www.google.com.br/maps/place/Rua+Dusolina+Leone+Tornieux,+249+-+Parque+Res.+Vila+União,+Campinas+-+SP,+13060-769/@-22.9429882,-47.1196781,18z/data=!3m1!4b1!4m5!3m4!1s0x94c8c8367ce0d287:0x479cad4521de0ae6!8m2!3d-22.9429898!4d-47.1189887">ONDE ESTAMOS</a>
 
             </h6>
 
@@ -531,7 +535,7 @@
         <!-- Grid row-->
         <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
       
-        <div class="row pb-3">
+        <div class="row pb-">
         
           <!-- Grid column -->
           <div class="col-md-12" id="social">
@@ -539,21 +543,21 @@
             <div class="flex-center">
             
               <!-- Facebook -->
-              <a class="">
+              <a href="https://www.facebook.com/cursinhoherbertdesouza/">
 
                 <i class="fab fa-facebook" id="fb"></i>
 
               </a>
 
               <!-- Twitter -->
-              <a class="tw-ic">
+              <a>
 
                 <i class="fab fa-twitter" id="tt"></i>
 
               </a>
 
               <!--Instagram-->
-              <a class="ins-ic">
+              <a href="https://www.instagram.com/cursinhoherbertdesouza/">
 
                 <i class="fab fa-instagram" id="ig"></i>
 

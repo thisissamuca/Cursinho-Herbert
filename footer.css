@@ -46,6 +46,10 @@
 
 /* SOCIAL */
 
+.social {
+    text-decoration: none;
+}
+
 #fb, #ig, #tt {
 
     color: white;

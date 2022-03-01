@@ -1,0 +1,54 @@
+.paragraphHelp {
+
+    background-color: white;
+
+}
+
+#text-help {
+
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    padding: 0;
+    margin: 70px 0px 70px 0px;
+
+}
+
+/* PARAGRAFOS */
+
+.paragraph-Help {
+
+    font-size: 22px;
+    text-align: start;
+
+}
+
+#paragraphPadding {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#paragraphPaddingTop {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+}
+
+#paragraphPaddingBot {
+
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+
+#paragraphNoPadding {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}

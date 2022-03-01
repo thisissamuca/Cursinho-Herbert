@@ -1,0 +1,39 @@
+.icone {
+
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.containerBox {
+    justify-content: center;
+    display: block;
+}
+
+#page1 {
+
+    background-color: white;
+
+    padding: 70px 0px 70px 0px;
+
+}
+
+#text-equipe {
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    padding: 0;
+    margin: 70px 0px 70px 0px;
+}
