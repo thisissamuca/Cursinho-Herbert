@@ -8,12 +8,11 @@
 
 <p align="center">
  
- <img src="http://img.shields.io/static/v1?label=STATUS&message=BUILDING&color=GREEN&style=for-the-badge"/>
- <img src="http://img.shields.io/static/v1?label=last_releasure&message=27_fev_2022&color=GREEN&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=GREEN&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=last_releasure&message=02_mar_2022&color=GREEN&style=for-the-badge"/>
  <img src="http://img.shields.io/static/v1?label=license&message=MIT&color=blue&style=for-the-badge"/>
- <img src="http://img.shields.io/static/v1?label=npm&message=16.14.0&color=yellow&style=for-the-badge"/>
  <img src="http://img.shields.io/static/v1?label=LANGUAGES&message=3&color=red&style=for-the-badge"/>
- <img src="http://img.shields.io/static/v1?label=repo size&message=551kb&color=yellow&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=repo size&message=1.38MB&color=yellow&style=for-the-badge"/>
  
 </p>
 
@@ -33,8 +32,10 @@ Tabela de conteúdos
 🕹️ Funcionalidades:
 - Informar o usuário sobre como se matricular.
 - Informar os principais serviços do cursinho.
-- Informar onde nos encontrar.
-- Informar como entrar em contato.
+- Informar meios e como entrar em contato.
+- Informar os principais integrantes do Cursinho.
+- Informar a localização do Cursinho.
+- Tirar as principais dúvidas do usuário.
 
 <br>
 
@@ -49,7 +50,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 **Página inicial**
 	
-<img alt="GIF" src="https://cdn.discordapp.com/attachments/944392836445503529/947603412776788091/website0.gif">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -57,7 +58,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947604280364384296/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -65,7 +66,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="GIF" src="https://cdn.discordapp.com/attachments/944392836445503529/947603413137506344/website1.gif">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -73,7 +74,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="GIF" src="https://cdn.discordapp.com/attachments/944392836445503529/947603412319612938/website2.gif">
+<img alt="IMAGEM" src="">
 	
 <br>
 
@@ -81,7 +82,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947602918729715712/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 
@@ -97,7 +98,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 **Projetos**
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606015866699816/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -105,7 +106,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606134989160488/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -113,7 +114,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606202844577872/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -121,7 +122,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606295677136956/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -129,7 +130,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606398362062848/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -145,7 +146,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 **Nossa missão**
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947607428432822312/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -153,7 +154,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947607532317323384/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -161,7 +162,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947608016914640946/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
@@ -169,7 +170,7 @@ https://thisissamuca.github.io/Cursinho-Herbert/
 
 <div align="center" text-align="center">
 	
-<img alt="IMAGEM" src="https://cdn.discordapp.com/attachments/944392836445503529/947606398362062848/unknown.png">
+<img alt="IMAGEM" src="">
 	
 <br>
 	
