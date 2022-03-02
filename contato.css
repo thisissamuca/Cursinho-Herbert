@@ -1,0 +1,188 @@
+/* --------------------------------------------------------------------------------- */
+
+/* CABEÇALHO */
+
+#text-contact {
+
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    padding: 0;
+    margin: 70px 0px 70px 0px;
+    
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* CARRDS */
+
+/* Box Cards */
+
+.card-group {
+
+    padding: 70px 0px 70px 0px;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* Container card */
+
+.container-card {
+
+    text-align: start;
+
+    border-radius: 20px;
+
+}
+
+/* Card corpo */
+
+.card-body {
+
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+/* Card geral */
+
+.card {
+
+    width: 30vw;
+    height: 400px;
+
+    border-radius: 20px;
+
+}
+
+/* Texts */
+
+.card-title {
+
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-top: 25px;
+
+}
+
+.card-text {
+
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+
+.text-card {
+
+    margin: 0px 25px 0px 25px;
+
+    padding: 5px;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* Card maior */
+
+/* Card Whatsapp */
+
+#card-major {
+
+    width: 30vw;
+    height: 450px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px -10px 0px rgb(35, 214, 80);
+
+}
+
+#card-title-major {
+
+    margin-top: 50px;
+
+    color: rgb(35, 214, 80);
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* Card Gmail */
+
+/* Título card */
+
+#gmail {
+
+    color: rgb(255, 53, 38);
+
+}
+
+/* Corpo card */
+
+#card-gmail {
+
+    box-shadow: 0px -10px 0px rgb(255, 53, 38);
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* Card Telefone */
+
+/* Título card */
+
+#telefone {
+
+    color: #444;
+
+}
+
+/* Corpo card */
+
+#card-telefone {
+
+    box-shadow: 0px -10px 0px #444;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* FOOTER */
+
+.card-footer {
+
+    height: 100%;
+    
+}
+
+/* Box botão */
+
+.card-box-btn {
+
+    text-align: center;
+
+    align-items: center;
+
+    margin: auto auto;
+
+}
+
+/* Botão */
+
+.btnContact {
+
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+
+}
+
+/* --------------------------------------------------------------------------------- */

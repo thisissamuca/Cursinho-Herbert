@@ -12,28 +12,6 @@
 
 /* TEXTOS */ 
 
-.title-season {
-
-    color: #333;
-
-    font-size: 68px;
-    text-align: center;
-    font-weight: bold;
-
-    margin: 0;
-
-}
-
-#paragraph-season {
-
-    font-size: 22px;
-    text-align: center;
-
-    margin: 65px 0px 0px 0px;
-    padding: 0;
-
-}
-
 #text-season {
 
     color: #333;
@@ -43,6 +21,8 @@
 
     margin: 70px 0px 0px 0px;
     padding: 0;
+
+    pointer-events: none;
 
 }
 

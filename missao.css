@@ -2,7 +2,7 @@
 
 /* CABEÇALHO */
 
-.title-season-mission {
+.title-mission {
 
     color: #333;
 
@@ -15,7 +15,7 @@
 
 }
 
-#text-season-mission {
+#text-mission {
 
     color: #333;
 
@@ -31,6 +31,15 @@
 
 /* IMAGEM */
 
+#box-imagem {
+
+    background-color: white;
+
+    margin: 0;
+    padding: 0;
+
+}
+
 #imgMission {
 
     width: 100%;
@@ -40,16 +49,7 @@
 
 }
 
-#imgMission {
-
-    background-color: white;
-
-    margin: 0;
-    padding: 0;
-
-}
-
-#imgMissionBox {
+#container-imagem {
 
     justify-content: center;
 

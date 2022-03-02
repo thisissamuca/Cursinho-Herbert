@@ -20,9 +20,7 @@
 
 .seasonLeft {
 
-    background-color: white;
-
-    padding: 30px;
+    padding: 50px 0px 50px 0px;
 
 }
 
@@ -30,7 +28,7 @@
 
     background-color: rgb(26, 23, 29, 0.10);
 
-    padding: 30px;
+    padding: 50px 0px 50px 0px;
 
 }
 
@@ -40,8 +38,10 @@
 
 .imgProjetc {
 
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
+
+    border-radius: 8px;
 
     cursor: pointer;
 
@@ -51,7 +51,9 @@
 
 .imgProjetc:hover {
 
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.70);
+
+    animation: rotate 6s linear infinite;
 
 }
 

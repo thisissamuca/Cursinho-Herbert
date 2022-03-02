@@ -4,6 +4,8 @@
 
 <!-- --------------------------------------------------------------------------------- -->
 
+  <!-- CABEÇA -->
+
   <head>
 
     <title>Página inicial - Cursinho popular Herbert de Souza</title>
@@ -26,22 +28,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Mukta:wght@500&family=Roboto:wght@300;400;700&family=Spartan:wght@400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/perfilHerbert.png" id="favicon" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="section.css">
-    <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="servicos.css">
 
   </head>
 
 <!-- --------------------------------------------------------------------------------- -->
 
+  <!-- CORPO -->
+
   <body>   
 
 <!-- --------------------------------------------------------------------------------- -->
 
-    <!-- Barra de navegação -->
+    <!-- NAVBAR -->
 
     <header> 
 
@@ -78,15 +83,19 @@
 
 <!-- --------------------------------------------------------------------------------- -->
 
-    <!-- BANNER INICIAL-->
+    <!-- CONTEÚDO PRINCIPAL -->
 
     <main>
+
+      <!-- Banner inicial -->
 
       <div id="banner">
 
         <div class="container">
 
           <div class="row">
+
+            <!-- Título -->
 
             <div class="col" id="tituloBox">
 
@@ -109,9 +118,11 @@
               
             </div>
 
+            <!-- Imagem -->
+
             <div class="col" id="imgBannerBox">
 
-              <img src="https://img.freepik.com/fotos-gratis/aluna-seria-estuda-ao-ar-livre-em-ambiente-urbano-faz-anotacoes-no-bloco-de-notas-ouve-musica-atraves-de-fones-de-ouvido-usa-jupe r-listrado-casual-senta-as-pernas-cruzadas-contra-o-fundo-da-cidade-estudando-o-conceito_273609-57772.jpg?w=360"  class="img-fluid" id="imgBanner" alt="Garoto estudando">
+              <img src="https://img.freepik.com/fotos-gratis/aluna-seria-estuda-ao-ar-livre-em-ambiente-urbano-faz-anotacoes-no-bloco-de-notas-ouve-musica-atraves-de-fones-de-ouvido-usa-jupe r-listrado-casual-senta-as-pernas-cruzadas-contra-o-fundo-da-cidade-estudando-o-conceito_273609-57772.jpg?w=360"  class="img-fluid" id="imgBanner" alt="IMAGEM">
 
             </div>
 
@@ -129,15 +140,15 @@
 
         <div class="container" >
 
-          <p id="text-about-2-area"></p> 
-
           <div class="row">
 
             <div class="col">
 
-              <p id="text-season">LUTE CONOSCO</p> 
+              <!-- Título -->
 
-              <h2 class="title-season">
+              <p class="sub-title">LUTE CONOSCO</p> 
+
+              <h2 class="title">
 
                 Seu <span class="red">lugar</span> é na <span class="red">universidade!</span>
 
@@ -147,43 +158,43 @@
 
           </div>
 
-          <p id="paragraph-season">
+          <!-- Paragraph -->
+
+          <p class="paragraph-season">
             Acreditamos que ao passar pelo <strong>Projeto Herbert de Souza</strong> as pessoas possam não somente ingressar na Universidade ou Colégios Técnicos  mas também, principalmente, que possam compreender que, estejam elas em quaisquer posição social, utilizem seu conhecimento para   melhorar o mundo para todos.
           </p> 
+
+          <!-- Imagem -->
 
           <div class="row row-cols-4" id="targets">
 
           <div class="col">
 
-            <img src="imagens/logoUnicamp.png" width="100px" height="100px" alt="">
-              
-            <h2></h2> 
+            <img src="imagens/logoUnicamp.png" width="100px" height="100px" alt="IMAGEM">
 
           </div>
 
           <div class="col">
 
-            <img src="imagens/logoUsp.gif" width="300px" height="100px" alt="">
+            <img src="imagens/logoUsp.gif" width="300px" height="100px" alt="IMAGEM">
 
           </div>
 
           <div class="col">
 
-            <img src="imagens/logoEnem.png" width="180px" height="100px" alt="">
+            <img src="imagens/logoEnem.png" width="180px" height="100px" alt="IMAGEM">
 
           </div>
 
           <div class="col">
 
-            <img src="imagens/logoCotuca.png" width="100px" height="100px" alt="">
+            <img src="imagens/logoCotuca.png" width="100px" height="100px" alt="IMAGEM">
 
           </div>
 
           <div class="col">
 
-            <img src="imagens/logoPuc.png" width="150px" height="100px" alt="">
-
-          </div>
+            <img src="imagens/logoPuc.png" width="150px" height="100px" alt="IMAGEM">
 
           </div>
         
@@ -205,16 +216,22 @@
 
               <div class="col">
 
-                <p id="text-services">CARACTERÍSTICAS</p> 
+                <!-- Título -->
 
-                <h2 class="title-services">Nossos serviços</h2>
+                <p class="sub-title">CARACTERÍSTICAS</p> 
 
-                <p id="paragraph-services">
+                <h2 class="title">Nossos serviços</h2>
+
+                <p class="paragraph-season">
                   Visto que, estudantes de escolas públicas e dos quais pertencem aos segmentos sociais de menor renda preenchem porcentagens absolutamente minoritárias nas vagas oferecidas nas universidades públicas, o cursinho Herbert de Souza sente-se o dever de
                   se opor a esse quadro excludente. Temos um propósito de possibilitar o acesso à universidade pública com um projeto com mais de 20 anos.
                 </p> 
 
               </div>
+
+            </div>
+
+            <!-- Cards -->
 
             </div id="card-group">
 
@@ -224,151 +241,191 @@
 
             <input type="checkbox" id="switch3"/>
 
-            <div>
+            <!-- BOX CARD -->
+
+            <div class="box-card">
+
+              <!-- Carta 1 -->
 
               <label class="flip-container" for="switch">
 
                 <div class="card">
         
-                    <div class="flipper">
-        
-                        <div class="front">
+                  <div class="flipper">
 
-                          <div class="card">
+                    <!-- Frente -->
         
-                            <div class="card-body">
+                    <div class="front">
+
+                      <div class="card">
+
+                        <!-- Imagem e título  -->
+        
+                        <div class="card-body">
             
-                                <img src="https://image.flaticon.com/icons/png/512/1050/1050453.png" class="card-img-top" alt="...">
+                          <img src="https://image.flaticon.com/icons/png/512/1050/1050453.png" class="card-img" alt="IMAGEM">
                     
-                                <h5 class="card-title" id="preVestibular">PRÉ VESTIBULAR</h5>
+                          <h5 class="card-title" id="preVestibular">PRÉ VESTIBULAR</h5>
                               
-                            </div>
-
-                          </div>
-            
                         </div>
-            
-                        <div class="back">
 
-                          <div class="card">
-
-                            <div class="card-body">
+                      </div>
             
-                              <p class="card-text" id="preVest">
-                                
-                                  Cursinho preparatório para vestibulares como Enem, Comvest, Fuvest e Vunesp, etc, com foco e aprofundamento em disciplinas do Ensino Médio como matemática e redação.
-                                
-                               </p>
-          
-                            </div>
-
-                          </div>
-            
-                        </div>
-        
                     </div>
+
+                    <!-- Verso -->
+            
+                    <div class="back">
+
+                      <div class="card">
+
+                        <!-- Texto Atrás  -->
+
+                        <div class="card-body">
+            
+                          <p class="card-text" id="preVest">
+                                
+                            Cursinho preparatório para vestibulares como Enem, Comvest, Fuvest e Vunesp, etc, com foco e aprofundamento em disciplinas do Ensino Médio como matemática e redação.
+                                
+                          </p>
+          
+                        </div>
+
+                      </div>
+            
+                    </div>
+        
+                  </div>
         
                 </div>
           
               </label>
         
+              <!-- Carta 2 -->
+
               <label class="flip-container2" for="switch2">
         
                 <div class="card">
         
-                    <div class="flipper2">
+                  <div class="flipper2">
+
+                    <!-- Frente -->
         
-                        <div class="front">
+                    <div class="front">
 
-                          <div class="card">
+                      <div class="card">
 
-                            <div class="card-body">
+                        <!-- Imagem e título -->
+
+                        <div class="card-body">
             
-                                <img src="https://image.flaticon.com/icons/png/512/1256/1256671.png" class="card-img-top" alt="...">
+                          <img src="https://image.flaticon.com/icons/png/512/1256/1256671.png" class="card-img" alt="IMAGEM">
                     
-                                <h5 class="card-title" id="preTecnico">PRÉ TÉCNICO</h5>
+                          <h5 class="card-title" id="preTecnico">PRÉ TÉCNICO</h5>
                               
-                            </div>
-
-                          </div>
-            
                         </div>
-            
-                        <div class="back">
 
-                          <div class="card">
-
-                            <div class="card-body">
+                      </div>
             
-                              <p class="card-text" id="preTec">
-                                
-                                  Cursinho focado para alunos que estão no 9º ano e querem ingressar em algum colégio técnico como o Cotuca, Cotil, Etecap, Bentão, etc. O cronograma é composto pelas disciplinas exigidas nesses vestibulares, como gramática, interpretação, ciências exatas e biológicas. 
-                                
-                              </p>
-          
-                            </div>
-
-                          </div>
-            
-                        </div>
-        
                     </div>
+
+                    <!-- Verso -->
+            
+                    <div class="back">
+
+                      <div class="card">
+
+                        <!-- Paragraph -->
+
+                        <div class="card-body">
+            
+                          <p class="card-text" id="preTec">
+                                
+                            Cursinho focado para alunos que estão no 9º ano e querem ingressar em algum colégio técnico como o Cotuca, Cotil, Etecap, Bentão, etc. O cronograma é composto pelas disciplinas exigidas nesses vestibulares, como gramática, interpretação, ciências exatas e biológicas. 
+                                
+                          </p>
+          
+                        </div>
+
+                      </div>
+            
+                    </div>
+        
+                  </div>
         
                 </div>
           
               </label>
         
+              <!-- Carta 3 -->
+
               <label class="flip-container3" for="switch3">
         
                 <div class="card">
         
-                    <div class="flipper3">
+                  <div class="flipper3">
+
+                    <!-- Frente -->
         
-                        <div class="front">
+                    <div class="front">
 
-                          <div class="card">
+                      <div class="card">
+
+                        <!-- Imagem e título -->
         
-                            <div class="card-body">
-            
-                                <img src="https://image.flaticon.com/icons/png/512/1048/1048945.png" class="card-img-top" alt="...">
-                    
-                                <h5 class="card-title" id="concursos">CONCURSOS</h5>
-                              
-                            </div>
+                        <div class="card-body">
 
-                          </div>
-            
-                        </div>
-            
-                        <div class="back">
+                          <img src="https://image.flaticon.com/icons/png/512/1048/1048945.png" class="card-img" alt="IMAGEM">
 
-                          <div class="card">
-         
-                            <div class="card-body">
-            
-                              <p class="card-text" id="conc">
-                                
-                                É um curso voltado para aqueles que concluíram seus estudos a bastante tempo. Tem por objetivo preparar os alunos para os concursos públicos de nível fundamental e médio. São oferecidas aulas de português e matemática básicos e possui material próprio.
-                                
-                              </p>
-          
-                            </div>
-
-                          </div>
+                          <h5 class="card-title" id="concursos">CONCURSOS</h5>
 
                         </div>
-        
+
+                      </div>
+            
                     </div>
+
+                    <!-- Verso -->
+            
+                    <div class="back">
+
+                      <div class="card">
+
+                        <!-- Paragraph -->
+         
+                        <div class="card-body">
+            
+                          <p class="card-text" id="conc">
+                                
+                            É um curso voltado para aqueles que concluíram seus estudos a bastante tempo. Tem por objetivo preparar os alunos para os concursos públicos de nível fundamental e médio. São oferecidas aulas de português e matemática básicos e possui material próprio.
+                                
+                          </p>
+          
+                        </div>
+
+                      </div>
+
+                    </div>
+        
+                  </div>
         
                 </div>
           
               </label>
 
+              <!-- Botão -->
+
               <div class="btns">
 
-                <a href="projetos.html"><button type="button" class="btn redProjetos" id="btn2">SABER MAIS</button></a>
+                <a href="projetos.html">
+
+                  <button type="button" class="btn redProjetos" id="btn2">SABER MAIS</button>
+
+                </a>
 
               </div>
+
+            </div>
 
           </div>
 
@@ -388,15 +445,19 @@
 
             <div class="col" id="aboutColum">
 
-              <p id="text-about">SOBRE NÓS</p> 
+              <!-- Título -->
 
-              <h2 class="title-about">Educação de qualidade</h2>
+              <p class="sub-title">SOBRE NÓS</p> 
+
+              <h2 class="title">Educação de qualidade</h2>
 
             </div>
 
           </div>
-        
+
           <div class="row">
+
+            <!-- Left -->
         
             <div class="col" id="colLeft">
         
@@ -425,12 +486,16 @@
               </p>
         
             </div>
+
+            <!-- Imagem -->
         
             <div class="col" id="imgAbout">
         
-              <img src="https://image.freepik.com/fotos-gratis/retrato-de-jovem-com-basquete_23-2149185212.jpg" alt="">
+              <img src="https://image.freepik.com/fotos-gratis/retrato-de-jovem-com-basquete_23-2149185212.jpg" alt="IMAGEM">
         
             </div>
+
+            <!-- Right -->
         
             <div class="col" id="colRight">
         

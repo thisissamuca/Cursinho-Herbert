@@ -1,24 +1,20 @@
-.icone {
+/* --------------------------------------------------------------------------------- */
 
-    border-radius: 50%;
-    background-color: red;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
+/* SEASON */
 
+#text-equipe {
 
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    padding: 0;
+    margin: 70px 0px 70px 0px;
+    
 }
 
-.box {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-
-}
-.containerBox {
-    justify-content: center;
-    display: block;
-}
+/* PÁGINA DA EQUIPE */
 
 #page1 {
 
@@ -28,12 +24,176 @@
 
 }
 
-#text-equipe {
-    color: #333;
+/* --------------------------------------------------------------------------------- */
 
-    font-size: 16px;
-    letter-spacing: 3px;
+/* CAIXA */
+
+.box {
+
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.containerBox {
+
+    display: block;
+    justify-content: center;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* ICONES EXTERNOS */
+
+.icone {
+
+    background-color: transparent;
+
+    text-align: center;
+
+    border-radius: 50%;
+    padding: 10px;
+    
+    justify-content: center;
+
+}
+
+#icon01, #icon02, #icon03, #icon04, #icon05, #icon06, #icon07, #icon08, #icon09, #icon10,
+#icon11, #icon12 {
+
+    background-color: transparent;
+
+    border: none;
+    border-radius: 50%;
+    outline: none;
 
     padding: 0;
-    margin: 70px 0px 70px 0px;
+
+    transition: 1s;
+
 }
+
+#icon01:hover, #icon02:hover, #icon03:hover, #icon04:hover, #icon05:hover, #icon06:hover,
+#icon07:hover, #icon08:hover, #icon09:hover, #icon10:hover, #icon11:hover, #icon12:hover {
+
+    animation: rotation 3s linear infinite;
+
+}
+
+#icon01:focus, #icon02:focus, #icon03:focus, #icon04:focus, #icon05:focus, #icon06:focus,
+#icon07:focus, #icon08:focus, #icon09:focus, #icon10:focus, #icon11:focus, #icon12:focus {
+
+    box-shadow: none;
+
+    border: none;
+    outline: none;
+
+    padding: 0;
+    
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* NOMES */
+
+
+.nome {
+
+    pointer-events: none;
+    
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* MODAL */
+
+.modal-title {
+
+    font-weight: bold;
+
+    pointer-events: none;
+
+}
+
+/* X */
+
+.close {
+
+    box-shadow: none;
+
+    border: none;
+    outline: none;
+
+}
+
+/* MODAL CORPO */
+
+.modal-body {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* CAIXA DOS PARAGRAFOS */
+
+.paragraph-modal {
+
+    border-radius: 3px;
+
+}
+
+/* TEXTO MODAL */
+
+.text-modal {
+
+    text-align: start;
+
+    padding: 5px;
+
+    pointer-events: none;
+
+}
+
+/* BOTÃO FOOTER */
+
+.btnFooter {
+
+    background-color: rgb(255, 53, 38);
+    box-shadow: none;
+
+    font-weight: bold;
+
+    border: none;
+    outline: none;
+
+}
+
+.btnFooter:hover {
+
+    transition: 1s;
+    background-color: rgb(255, 19, 19);
+
+}
+
+.btnFooter:focus {
+
+    outline: 2px solid black;
+    outline-offset: 3px;
+
+}
+
+/* ICONES INTERNOS */
+
+#icone-modal-1, #icone-modal-2, #icone-modal-3, #icone-modal-4, #icone-modal-5, #icone-modal-6,
+#icone-modal-7, #icone-modal-8, #icone-modal-9, #icone-modal-10, #icone-modal-11, #icone-modal-12 {
+
+    animation: rotate 4s linear infinite;
+
+}
+
+/* --------------------------------------------------------------------------------- */

@@ -18,6 +18,9 @@ body {
     width: 100vw;
     height: 100vh;
 
+    margin: 0;
+    padding: 0;
+
 }
 
 .container {
@@ -51,11 +54,21 @@ h1 {
     text-align: start;
     font-weight: bold;
 
+    pointer-events: none;
+
+}
+
+h2 {
+
+    pointer-events: none;
+       
 }
 
 p {
 
     text-decoration: none;
+
+    pointer-events: none
 
 }
 
@@ -87,34 +100,128 @@ a {
     display: none;
 
 }
+/* --------------------------------------------------------------------------------- */
+
+/* TEXTS */
+
+.title {
+
+    color: #333;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 68px;
+
+    padding: 10px;
+
+    pointer-events: none;
+
+}
+
+.sub-title {
+
+    color: #333;
+
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+
+    pointer-events: none;
+
+}
+
+.paragraph-season {
+
+    font-size: 22px;
+    text-align: center;
+
+    margin: 45px 0px 75px 0px;
+    padding: 5px;
+
+    pointer-events: none;
+
+}
+
+
 
 /* --------------------------------------------------------------------------------- */
 
 /* Efeito de brilho */
 
 .brightness {
+
     --posX: 0px;
     --posY: 0px;
     --color: rgba(255, 255, 255, 0.15);
+    
 }
   
 .brightness::before {
+
   content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
+
   background: radial-gradient(
+
     circle at var(--posX) var(--posY),
     var(--color),
     rgba(255, 255, 255, 0)
+
   );
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
 }
   
 .brightness .nav-link, .navbar-brand, #text-logo  {
+
   position: relative;
   pointer-events:all;
+
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* COLUMS E GRID */
+
+.leftTitle, .leftText {
+
+    text-align: end;
+
+}
+
+.rightTitle, .rightText {
+
+    text-align: start;
+
+}
+
+.rightTitle, .leftTitle  {
+
+    font-weight: bold;
+
+    margin: 50px 0px 0px 0px;
+
+    pointer-events: none;
+
+}
+
+.rightText, .leftText {
+
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+
+    margin: 0px 0px 50px 0px;
+
+    pointer-events: none;
+
 }
 
 /* --------------------------------------------------------------------------------- */
