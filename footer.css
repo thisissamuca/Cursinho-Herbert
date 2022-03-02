@@ -44,12 +44,22 @@
 
 }
 
+.linkFooter:focus {
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px white;
+    padding: 3px;
+
+}
+
 /* --------------------------------------------------------------------------------- */
 
 /* SOCIAL */
 
 .social {
+
     text-decoration: none;
+
 }
 
 #fb, #ig, #tt {
@@ -57,9 +67,12 @@
     color: white;
 
     font-size: 26px;
+    text-decoration: none;
 
     border-radius: 50%;
-    padding: 15px;
+
+    margin: 0px 3px 0px 3px;
+    padding: 2px;
 
     cursor: pointer;
 
@@ -70,6 +83,8 @@
 #fb:hover {
 
     color: rgb(29, 52, 255);
+
+    text-decoration: none;
 
 } 
 
@@ -91,6 +106,22 @@
 
     padding: 10px;
 
+}
+
+#social a:focus {
+
+    text-decoration: none;
+
+    padding: 10px 0px 3px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
+    
+}
+
+#social a:hover {
+
+    text-decoration: none;
+    
 }
 
 /* --------------------------------------------------------------------------------- */

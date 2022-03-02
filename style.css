@@ -4,8 +4,8 @@
 
 * {
 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 
     box-sizing: border-box;
 
@@ -14,19 +14,9 @@
 body {
 
     font-family: 'Roboto', sans-serif;
-
-    width: 100vw;
-    height: 100vh;
-
-    margin: 0;
-    padding: 0;
-
-}
-
-.container {
-
-    padding: auto;
-    margin: auto;
+    
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -35,14 +25,14 @@ body {
     text-align: center;
     align-items: center;
 
-    padding: 0;
+    padding: 0px;
 
 }
 
 .col {
 
     margin: 0px;
-    padding-top: 0px;
+    padding: 0px;
 
 }
 
@@ -144,8 +134,6 @@ a {
 
 }
 
-
-
 /* --------------------------------------------------------------------------------- */
 
 /* Efeito de brilho */
@@ -206,7 +194,7 @@ a {
 
     font-weight: bold;
 
-    margin: 50px 0px 0px 0px;
+    margin: 50px 20px 0px 20px;
 
     pointer-events: none;
 
@@ -218,7 +206,7 @@ a {
     font-style: italic;
     letter-spacing: 1px;
 
-    margin: 0px 0px 50px 0px;
+    margin: 0px 20px 50px 20px;
 
     pointer-events: none;
 

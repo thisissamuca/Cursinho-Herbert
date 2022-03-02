@@ -17,7 +17,7 @@
     <meta name="author" content="Samuel Augusto">
     <meta http-equiv="content-language" content="pt-br">
     <meta name="copyright" content="© 2022 Cursinho popular Herbert de Souza">
-    <meta name="description" content="Missão do Cursinho">
+    <meta name="description" content="Contato Cursinho">
     <meta name="rating" content="general">
 
     <!-- Bootstrap CSS -->
@@ -28,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Mukta:wght@500&family=Roboto:wght@300;400;700&family=Spartan:wght@400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/imagens/perfilHerbert.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="section.css">
@@ -51,7 +52,11 @@
 
         <nav class="navbar navbar-expand-lg fixed-top navbar brightness" >
 
-          <a href="index.html" class="navbar-brand" id="imgLogo"><img src="imagens/perfilHerbert.png"id="imgLogo" width="40px" height="40px" alt="Logo do site"><span id="text-logo">Herbert de Souza</span></a>
+          <a href="index.html" class="navbar-brand"><img src="imagens/perfilHerbert.png"id="imgLogo" width="40px" height="40px" alt="Logo do site">
+
+          <span id="text-logo">Herbert de Souza</span>
+
+          </a>
 
           <div class="navbar-collapse oculto" id="navbar-links">
 
@@ -94,8 +99,8 @@
 
             <div class="col">
 
-              <p id="text-contact">CONTATOS</p> 
-
+              <p id="text-contact">CONTATE-NOS</p>
+              
             </div>
 
           </div>
@@ -104,9 +109,15 @@
 
       </div>
 
+      <!-- Grupo de cartões -->
+
       <div class="card-group">
 
+        <!-- Container cartão -->
+
         <div class="container-card">
+
+          <!-- Cartão GMAIL -->
 
           <div class="card">
             
@@ -114,19 +125,19 @@
 
               <div class="text-card">
 
+                <!-- Título e texto -->
+
                 <h5 class="card-title" id="gmail">Gmail</h5>
 
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fuga labore dolore quos earum explicabo quod praesentium molestias cupiditate nisi est placeat, deleniti cumque excepturi expedita. Est expedita a consequuntur!</p>
+                <p class="card-text">Quer enviar algum tipo de sugestão, dúvida específica ou comunicar algo importante que envolve documentação?</p>
 
               </div>
 
-            </div>
-
-            <div class="card-footer">
+              <!-- Botão -->
 
               <div class="card-box-btn">
-
-                <a href="#"><button type="button" class="btnContact">Visitar</button></a>
+  
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=cursinhoherbert@gmail.com" tabindex="-1"><button type="button" class="btnContact" id="btnGmail">Mandar E-mail</button></a>
 
               </div>
 
@@ -136,57 +147,65 @@
 
         </div>
 
+        <!-- Container cartão -->
+
         <div class="container-card">
 
-          <div class="card" id="card-major">
+          <!-- Cartão WPP -->
+
+          <div class="card">
             
-            <div class="card-body" >
+            <div class="card-body" id="card-wpp">
 
               <div class="text-card">
 
-                <h5 class="card-title" id="card-title-major">WhatsApp</h5>
+                <!-- Título e texto -->
 
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fuga labore dolore quos earum explicabo quod praesentium molestias cupiditate nisi est placeat, deleniti cumque excepturi expedita. Est expedita a consequuntur!</p>
+                <h5 class="card-title" id="wpp">WhatsApp</h5>
+
+                <p class="card-text">Quer se inscrever no cursinho? Ou talvez tirar alguma dúvida rápida? Ou até mesmo se comunicar com a secretaria rapidamente?</p>
 
               </div>
 
-            </div>
-
-            <div class="card-footer">
+              <!-- Botão -->
 
               <div class="card-box-btn">
-
-                <a href="#"><button type="button" class="btnContact">Visitar</button></a>
+  
+                <a href="#" tabindex="-1"><button type="button" class="btnContact" id="btnWpp">Mandar Mensagem</button></a>
 
               </div>
-
+  
             </div>
 
           </div>
 
         </div>
 
+        <!-- Container cartão -->
+
         <div class="container-card">
 
-          <div class="card" id="card-telefone">
+          <!-- Cartão Telefone -->
+
+          <div class="card">
             
-            <div class="card-body">
+            <div class="card-body" id="card-telefone">
 
               <div class="text-card">
+
+                <!-- Título e texto -->
 
                 <h5 class="card-title" id="telefone">Telefone</h5>
 
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fuga labore dolore quos earum explicabo quod praesentium molestias cupiditate nisi est placeat, deleniti cumque excepturi expedita. Est expedita a consequuntur!</p>
+                <p class="card-text">Quer ligar diretamente para a secretaria e resolver qualquer tipo de questão desde a matrícula até dúvidas diversas?</p>
 
               </div>
 
-            </div>
-
-            <div class="card-footer">
+              <!-- Botão -->
 
               <div class="card-box-btn">
 
-                <a href="#"><button type="button" class="btnContact">Visitar</button></a>
+                <a href="#" tabindex="-1"><button type="button" class="btnContact" id="btnTel">Ligar</button></a>
 
               </div>
 
@@ -211,17 +230,6 @@
       
         <!-- Grid row-->
         <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-        
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-
-            <h6 class="text-uppercase font-weight-bold">
-
-              <a class="linkFooter" href="contato.html">CONTATE-NOS</a>
-
-            </h6>
-
-          </div>
         
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
@@ -278,13 +286,6 @@
               <a href="https://www.facebook.com/cursinhoherbertdesouza/">
 
                 <i class="fab fa-facebook" id="fb"></i>
-
-              </a>
-
-              <!-- Twitter -->
-              <a>
-
-                <i class="fab fa-twitter" id="tt"></i>
 
               </a>
 

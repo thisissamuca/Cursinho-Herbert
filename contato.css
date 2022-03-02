@@ -22,9 +22,12 @@
 
 .card-group {
 
+    background-color: white;
+
+    margin: 0px;
     padding: 70px 0px 70px 0px;
 
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -51,11 +54,17 @@
 
 .card {
 
-    width: 30vw;
-    height: 400px;
-
+    width: 390px;
+    height: auto;
+    
     border-radius: 20px;
 
+}
+
+.card:hover {
+
+    animation: shadow 3s linear infinite;
+    
 }
 
 /* Texts */
@@ -71,8 +80,8 @@
 
 .card-text {
 
-    font-size: 18px;
-    font-style: italic;
+    font-size: 16px;
+    font-style: normal;
     letter-spacing: 2px;
 
 }
@@ -85,28 +94,27 @@
 
 }
 
-/* --------------------------------------------------------------------------------- */
+.legenda {
 
-/* Card maior */
-
-/* Card Whatsapp */
-
-#card-major {
-
-    width: 30vw;
-    height: 450px;
-
-    border-radius: 20px;
-
-    box-shadow: 0px -10px 0px rgb(35, 214, 80);
+    font-size: 12px;
 
 }
 
-#card-title-major {
+/* --------------------------------------------------------------------------------- */
 
-    margin-top: 50px;
+/* Título wpp */
+
+#wpp {
 
     color: rgb(35, 214, 80);
+
+}
+
+/* Card Whatsapp */
+
+#card-wpp {
+
+    box-shadow: 0px -10px 0px rgb(35, 214, 80);
 
 }
 
@@ -146,19 +154,13 @@
 
 #card-telefone {
 
+    margin-bottom: 0px;
+
     box-shadow: 0px -10px 0px #444;
 
 }
 
 /* --------------------------------------------------------------------------------- */
-
-/* FOOTER */
-
-.card-footer {
-
-    height: 100%;
-    
-}
 
 /* Box botão */
 
@@ -175,13 +177,85 @@
 /* Botão */
 
 .btnContact {
+    
+    background-color: white;
+    color: rgb(88, 127, 255);
 
-    background-color: red;
-    width: 100px;
+    font-weight: bold;
+
+    width: 250px;
     height: 50px;
+
+    margin: 50px 0px 25px 0px;
+
     border: none;
-    border-radius: 30px;
+    border: 1px solid rgba(131, 160, 255, 0.75);
+    border-radius: 40px;
     outline: none;
+
+}
+
+.btnContact:focus {
+
+    transition: 0s;
+
+    box-shadow: 0px 0px 10px black;
+
+    border: none;
+    border: 1px solid rgba(131, 160, 255, 0.75);
+    outline: none;
+
+}
+
+
+/* Botão Wpp */
+
+#btnWpp {
+
+    transition: 1s;
+
+}
+
+#btnWpp:hover {
+
+    background-color: rgb(35, 214, 80);
+    color: white;
+
+    border: none;
+
+}
+
+/* Botão Gmail */
+
+#btnGmail {
+
+    transition: 1s;
+
+}
+
+#btnGmail:hover {
+
+    background-color: rgb(255, 53, 38);
+    color: white;
+
+    border: none;
+
+}
+
+/* Botão Telefone */
+
+#btnTel {
+
+    transition: 1s;
+    
+}
+
+#btnTel:hover {
+
+    background-color: #444;
+    color: white;
+
+    border: none;
 
 }
 

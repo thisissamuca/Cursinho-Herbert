@@ -43,6 +43,14 @@
 
     margin: 70px 0px 70px 0px;
 
+    cursor: pointer;
+
+}
+
+#imgBanner:hover {
+
+    animation: rotate2 2s linear infinite;
+
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -78,6 +86,13 @@
 
     border-radius: 50px;
 
+}
+
+#btn:focus {
+
+    box-shadow: 0px 0px 10px black;
+
+    outline: none;
 }
 
 /* --------------------------------------------------------------------------------- */
