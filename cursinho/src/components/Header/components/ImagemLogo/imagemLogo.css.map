@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWA,AAAA,KAAK,CAAC;EATF,aAAa,EAAE,GAAG;EAElB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,eAAe,EAAE,IAAI;CAQxB",
+    "sources": [
+        "imagemLogo.scss"
+    ],
+    "names": [],
+    "file": "imagemLogo.css"
+}
